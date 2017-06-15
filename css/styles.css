@@ -1,0 +1,14 @@
+body {
+  background-color: #E4F5E2;
+}
+
+
+#intro {
+
+  border: 5px solid;
+  padding: 10px;
+  color: #575757;
+  /*font-family: 'Raleway', sans-serif;*/
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+}
