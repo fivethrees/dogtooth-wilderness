@@ -8,6 +8,7 @@ window.onload = function() {
   function fade() {
     if (window.matchMedia("(max-width: 576px)").matches) {
       $("#intro").hide().fadeIn(2000);
+      $("#forest1").hide();
     } else {
       $("#intro").hide();
       setTimeout(
@@ -46,6 +47,12 @@ window.onload = function() {
   }
   function forest1() {
     if (window.matchMedia("(min-width: 576px)").matches) {
-      $("#introduction").hide().fadeIn(2000);
+      $("#forest1phone").hide();
+      $("#forest2phone").hide();
+      $("#forest3phone").hide();
+      $("#forest4phone").hide();
     }
+    // if (window.matchMedia("(min-width: 576px)").matches) {
+    //   $("#introduction").hide().fadeIn(2000);
+    // }
   }

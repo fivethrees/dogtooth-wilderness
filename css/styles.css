@@ -26,3 +26,23 @@ body {
   left: -500px;
   z-index: 1;
 }
+#forest1phone {
+  position: absolute;
+  bottom: 0px;
+  z-index: -1;
+}
+#forest2phone {
+  position: absolute;
+  bottom: 0px;
+  z-index: 0;
+}
+#forest3phone {
+  position: absolute;
+  bottom: 0px;
+  z-index: 1;
+}
+#forest4phone {
+  position: absolute;
+  bottom: 0px;
+  z-index: 2;
+}
