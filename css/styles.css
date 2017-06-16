@@ -2,23 +2,6 @@ body {
   background-color: #E4F5E2;
   overflow-x: hidden;
 }
-#intro {
-  border: 5px solid;
-  color: #575757;
-  font-family: 'Permanent Marker', cursive;
-  padding: 10px;
-  text-align: center;
-}
-.fa-angle-down {
-  color: #f8f8f8;
-  font-size: 48px !important;
-}
-.arrow {
-  position: absolute;
-  bottom: -50px;
-  left: 50%;
-  margin-left: -24px;
-}
 .sun img {
   width: 120px;
   height: 120px;

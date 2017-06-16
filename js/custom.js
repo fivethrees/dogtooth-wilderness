@@ -3,9 +3,18 @@ window.onload = function() {
   cloudOne();
   cloudTwo();
   arrow();
+  forest1();
 }
   function fade() {
-    $("#intro").hide().fadeIn(2000);
+    if (window.matchMedia("(max-width: 576px)").matches) {
+      $("#intro").hide().fadeIn(2000);
+    } else {
+      $("#intro").hide();
+      setTimeout(
+        function() {
+          $("#intro").hide().fadeIn(2000);
+        }, 3000);
+    }
   }
   function cloudOne() {
     setInterval(
@@ -24,6 +33,19 @@ window.onload = function() {
       }, 1000);
   }
   function arrow() {
-    $(".arrow").animate({
-      bottom: '5px'}, 2000);
+    if (window.matchMedia("(max-width: 576px)").matches) {
+      $(".arrow").animate({
+        bottom: '5px'}, 2000);
+    } else {
+      setTimeout(
+        function() {
+          $(".arrow").animate({
+            bottom: '5px'}, 2000);
+        }, 3000);
+    }
+  }
+  function forest1() {
+    if (window.matchMedia("(min-width: 576px)").matches) {
+      $("#introduction").hide().fadeIn(2000);
+    }
   }
