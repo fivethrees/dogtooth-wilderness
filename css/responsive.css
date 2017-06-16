@@ -8,9 +8,11 @@
     margin-left: 25px;
     margin-right: 25px;
     position: absolute;
+    left: 50%;
+    margin-left: -150px;
     z-index: 2;
   }
-  #cloud1 {
+/*  #cloud1 {
     height: 200px;
     width: 200px;
     position: absolute;
@@ -25,5 +27,5 @@
     top: 250px;
     left: -500px;
     z-index: 1;
-  }
+  } */
 }

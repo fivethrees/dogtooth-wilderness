@@ -11,7 +11,7 @@ window.onload = function() {
     setInterval(
       function() {
         $("#cloud1").animate({
-          left: '+=600px'}, 30500,
+          left: $(window).width()}, 45000,
           function() { $(this).removeAttr('style'); });
       }, 1000);
   }
@@ -19,7 +19,7 @@ window.onload = function() {
     setInterval(
       function() {
         $("#cloud2").animate({
-          left: '+=910px'}, 40000,
+          left: $(window).width()}, 50000,
           function() { $(this).removeAttr('style'); });
       }, 1000);
   }
