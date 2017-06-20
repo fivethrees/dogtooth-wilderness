@@ -36,7 +36,7 @@
     margin-right: 25px;
     position: absolute;
     left: 50%;
-    margin-left: -145px;
+    margin-left: -155px;
     z-index: 2;
   }
   #intro {
@@ -97,7 +97,7 @@
     padding-top: 200px;
     position: absolute;
     left: 50%;
-    margin-left: -180px;
+    margin-left: -170px;
     z-index: 2;
   }
   .fa-angle-down {
@@ -121,15 +121,14 @@
   }
 }
 
-
 @media (min-width: 1199px) {
   .introduction {
     margin-left: 25px;
     margin-right: 25px;
-    padding-top: 200px;
+    padding-top: 235px;
     position: absolute;
     left: 50%;
-    margin-left: -225px;
+    margin-left: -215px;
     z-index: 2;
   }
   .fa-angle-down {
