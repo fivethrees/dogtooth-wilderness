@@ -1,48 +1,7 @@
 body {
-  background-color: #E4F5E2;
-  overflow-x: hidden;
 }
-.sun img {
-  width: 120px;
-  height: 120px;
-  position: absolute;
-  right: 50px;
-  top: 45px;
-  z-index: -1;
-}
-#cloud1 {
-  height: 200px;
-  width: 200px;
-  position: absolute;
-  top: 130px;
-  left: -200px;
-  z-index: 1;
-}
-#cloud2 {
-  height: 200px;
-  width: 200px;
-  position: absolute;
-  top: 250px;
-  left: -500px;
-  z-index: 1;
-}
-#forest1phone {
-  position: absolute;
-  bottom: 0px;
-  z-index: -1;
-}
-#forest2phone {
-  position: absolute;
-  bottom: 0px;
-  z-index: 0;
-}
-#forest3phone {
-  position: absolute;
-  bottom: 0px;
-  z-index: 1;
-}
-#forest4phone {
-  position: absolute;
-  bottom: 0px;
-  z-index: 2;
+#introduction {
+  background-image: url("/img/forest.jpg");
+
+  height: 100vh;
 }

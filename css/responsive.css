@@ -1,12 +1,12 @@
 /* Phones and Tablets */
 @media (max-width: 576px) {
   .introduction {
-    padding-top: 200px;
+    padding-top: 225px;
     margin-left: 25px;
     margin-right: 25px;
     position: absolute;
     left: 50%;
-    margin-left: -150px;
+    margin-left: -145px;
     z-index: 2;
   }
   #intro {
@@ -17,7 +17,7 @@
     text-align: center;
   }
   .fa-angle-down {
-    color: #f8f8f8;
+    color: #575757;
     font-size: 48px !important;
   }
   .arrow {
@@ -31,16 +31,46 @@
 
 @media (min-width: 576px) {
   .introduction {
+    padding-top: 225px;
     margin-left: 25px;
     margin-right: 25px;
-    padding-top: 200px;
     position: absolute;
     left: 50%;
-    margin-left: -150px;
+    margin-left: -145px;
+    z-index: 2;
+  }
+  #intro {
+    border: 5px solid;
+    color: #575757;
+    font-family: 'Permanent Marker', cursive;
+    padding: 10px;
+    text-align: center;
+  }
+  .fa-angle-down {
+    color: #575757;
+    font-size: 48px !important;
+  }
+  .arrow {
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    margin-left: -24px;
+    z-index: 5;
+  }
+}
+
+@media (min-width: 767px) {
+  .introduction {
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 225px;
+    position: absolute;
+    left: 50%;
+    margin-left: -165px;
     z-index: 2;
   }
   .fa-angle-down {
-    color: #f8f8f8;
+    color: #575757;
     font-size: 48px !important;
   }
   .arrow {
@@ -54,10 +84,71 @@
     border: 5px solid;
     color: #575757;
     font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
     padding: 10px;
     text-align: center;
   }
-  #forest1 {
-    z-index: -1;
+}
+
+@media (min-width: 991px) {
+  .introduction {
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 200px;
+    position: absolute;
+    left: 50%;
+    margin-left: -180px;
+    z-index: 2;
+  }
+  .fa-angle-down {
+    color: #575757;
+    font-size: 60px !important;
+  }
+  .arrow {
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    margin-left: -24px;
+    z-index: 5;
+  }
+  #intro {
+    border: 5px solid;
+    color: #575757;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 42px;
+    padding: 10px;
+    text-align: center;
+  }
+}
+
+
+@media (min-width: 1199px) {
+  .introduction {
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 200px;
+    position: absolute;
+    left: 50%;
+    margin-left: -225px;
+    z-index: 2;
+  }
+  .fa-angle-down {
+    color: #575757;
+    font-size: 60px !important;
+  }
+  .arrow {
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    margin-left: -24px;
+    z-index: 5;
+  }
+  #intro {
+    border: 5px solid;
+    color: #575757;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 55px;
+    padding: 10px;
+    text-align: center;
   }
 }
