@@ -1,23 +1,23 @@
 /* Phones and Tablets */
 @media (max-width: 576px) {
   .introduction {
-    padding-top: 225px;
+    padding-top: 275px;
     margin-left: 25px;
     margin-right: 25px;
     position: absolute;
     left: 50%;
     margin-left: -145px;
-    z-index: 2;
+    z-index: 500;
   }
-  #intro {
+  #intro{
     border: 5px solid;
-    color: #575757;
+    color: #F2F2F2;
     font-family: 'Permanent Marker', cursive;
     padding: 10px;
     text-align: center;
   }
   .fa-angle-down {
-    color: #575757;
+    color: #FFF;
     font-size: 48px !important;
   }
   .arrow {
@@ -28,8 +28,7 @@
     z-index: 5;
   }
 }
-
-@media (min-width: 576px) {
+/*@media (min-width: 576px) {
   .introduction {
     padding-top: 225px;
     margin-left: 25px;
@@ -151,3 +150,4 @@
     text-align: center;
   }
 }
+ */
