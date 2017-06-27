@@ -1,23 +1,14 @@
-
- .hi {
-   background-image:  linear-gradient(45deg, #0F4627 0%, #D5E9DA 80%);
- }
-  #introduction {
-  /*background-image: url("/img/forest.jpg");*/
-
-  /*background: linear-gradient(
-                rgba(20, 20, 20, .3),
-                rgba(20, 20, 20, .3)),*/
-                /*background: url("/img/forest.jpg");*/
-                background: url("/img/forest.jpg");
-
-opacity: .4;
-background-size: cover !important;
-background-position: center;
-height: 100vh;
-width: 100%;
+.gradient {
+  background-image:  linear-gradient(45deg, #082E18 0%, #D5E9DA 80%);
 }
-
+#introduction {
+  background: url("/img/forest.jpg");
+  opacity: .4;
+  background-size: cover !important;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
 
 /* Navigation Bar */
 .dropdown {
@@ -34,6 +25,8 @@ width: 100%;
 .navbar-toggle {
   border: none !important;
   border-radius: none !important;
+  padding: 0px;
+  margin-top: 0px;
 }
 .glyphicon-align-justify {
   font-size: 25px;
@@ -44,21 +37,21 @@ width: 100%;
   position: absolute;
   top: 24px;
 }
- .navbar-default {
-   background: rgba(255, 255, 255, 0.4);
-  }
- .navbar {
-   border: none;
-   padding: 0px 0px 5px 0px;
-   margin: 0px;
- }
- .line {
-   border-bottom: solid;
-   border-bottom-width: thin;
-   border-bottom-color: #BDBDBD;
-   padding-top: 15px !important;
-   padding-bottom: 15px !important;
- }
- .button-navbar {
-   margin-left: 10px;
- }
+.navbar-default {
+  background: rgba(255, 255, 255, 0.4);
+}
+.navbar {
+  border: none;
+  padding: 0px 0px 5px 0px;
+  margin: 0px;
+}
+.line {
+  border-bottom: solid;
+  border-bottom-width: thin;
+  border-bottom-color: #BDBDBD;
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+}
+.button-navbar {
+  margin-left: 20px;
+}

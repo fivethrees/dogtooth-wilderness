@@ -1,7 +1,7 @@
 /* Phones and Tablets */
 @media (max-width: 576px) {
   .introduction {
-    padding-top: 275px;
+    padding-top: 285px;
     margin-left: 25px;
     margin-right: 25px;
     position: absolute;
@@ -16,48 +16,120 @@
     padding: 10px;
     text-align: center;
   }
-  .fa-angle-down {
-    color: #FFF;
-    font-size: 48px !important;
-  }
-  .arrow {
-    position: absolute;
-    bottom: -50px;
-    left: 50%;
-    margin-left: -24px;
-    z-index: 5;
-  }
 }
-/*@media (min-width: 576px) {
+
+/* Galaxy S5 */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3)
+  and (orientation: portrait) {
   .introduction {
-    padding-top: 225px;
+    padding-top: 265px;
     margin-left: 25px;
     margin-right: 25px;
     position: absolute;
     left: 50%;
-    margin-left: -155px;
-    z-index: 2;
+    margin-left: -125px;
   }
-  #intro {
+  #intro{
     border: 5px solid;
-    color: #575757;
+    color: #F2F2F2;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+  }
+}
+
+/* Nexus 5X */
+@media screen
+  and (device-width: 412px)
+  and (device-height: 732px)
+  and (orientation: portrait) {
+  .introduction {
+    padding-top: 295px;
+    margin-left: 25px;
+    margin-right: 25px;
+    position: absolute;
+    left: 50%;
+    margin-left: -130px;
+  }
+  #intro{
+    border: 5px solid;
+    color: #F2F2F2;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 32px;
+    padding: 10px;
+    text-align: center;
+  }
+}
+
+/* iPhone 5S */
+@media screen
+  and (device-width: 320px)
+  and (device-height: 568px)
+  and (orientation: portrait) {
+  .introduction {
+    padding-top: 245px;
+    margin-left: 25px;
+    margin-right: 25px;
+    position: absolute;
+    left: 50%;
+    margin-left: -125px;
+  }
+  #intro{
+    border: 5px solid;
+    color: #F2F2F2;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+  }
+}
+
+/* iPhone 6S Plus */
+@media screen
+  and (device-width: 414px)
+  and (device-height: 736px)
+  and (orientation: portrait) {
+  .introduction {
+    padding-top: 315px;
+    margin-left: 25px;
+    margin-right: 25px;
+    position: absolute;
+    left: 50%;
+    margin-left: -147px;
+  }
+  #intro{
+    border: 5px solid;
+    color: #F2F2F2;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 38px;
+    padding: 10px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 576px) {
+  .introduction {
+    padding-top: 285px;
+    margin-left: 25px;
+    margin-right: 25px;
+    position: absolute;
+    left: 50%;
+    margin-left: -145px;
+    z-index: 500;
+  }
+  #intro{
+    border: 5px solid;
+    color: #F2F2F2;
     font-family: 'Permanent Marker', cursive;
     padding: 10px;
     text-align: center;
   }
-  .fa-angle-down {
-    color: #575757;
-    font-size: 48px !important;
-  }
-  .arrow {
-    position: absolute;
-    bottom: -50px;
-    left: 50%;
-    margin-left: -24px;
-    z-index: 5;
-  }
 }
-
+/*
 @media (min-width: 767px) {
   .introduction {
     margin-left: 25px;
