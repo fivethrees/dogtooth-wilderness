@@ -1,225 +1,80 @@
-/* Phones and Tablets */
-@media (max-width: 576px) {
-  .introduction {
-    padding-top: 285px;
-    margin-left: 25px;
-    margin-right: 25px;
-    position: absolute;
-    left: 50%;
-    margin-left: -145px;
-    z-index: 500;
-  }
-  #intro{
+@media only screen and (min-width: 320px) {
+  #wander-safely {
     border: 5px solid;
-    color: #F2F2F2;
-    font-family: 'Permanent Marker', cursive;
-    padding: 10px;
-    text-align: center;
+    margin: 15px;
+    padding: 5px 0px 5px 5px;
+    text-align: left;
+  }
+  .introduction {
+    padding-top: 125px;
   }
 }
-
-/* Galaxy S5 */
-@media screen
-  and (device-width: 360px)
-  and (device-height: 640px)
-  and (-webkit-device-pixel-ratio: 3)
+@media only screen and (min-width : 340px){
+  #wander-safely {
+    margin: 15px 30px 15px 30px;
+  }
+}
+@media only screen and (min-width : 400px){
+  #wander-safely {
+    margin: 15px 50px 15px 50px;
+  }
+}
+@media only screen and (min-width : 450px) {
+  #wander-safely {
+    margin: 15px 70px 15px 70px;
+  }
+}
+@media only screen and (min-width : 480px) {
+  #wander-safely {
+    margin: 15px 90px 15px 90px;
+  }
+}
+@media only screen and (min-width : 525px) {
+  #wander-safely {
+    margin: 15px 110px 15px 110px;
+  }
+}
+@media only screen and (min-width : 565px) {
+  #wander-safely {
+    margin: 15px 130px 15px 130px;
+  }
+}
+@media only screen and (min-width : 630px) {
+  #wander-safely {
+    margin: 15px 130px 15px 130px;
+    padding: 15px 0px 15px 15px;
+  }
+}
+@media only screen and (min-width : 660px) {
+  #wander-safely {
+    margin: 15px 150px 15px 150px;
+    padding: 15px 0px 15px 15px;
+  }
+}
+/* iPhone 5 */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
   and (orientation: portrait) {
-  .introduction {
-    padding-top: 265px;
-    margin-left: 25px;
-    margin-right: 25px;
-    position: absolute;
-    left: 50%;
-    margin-left: -125px;
-  }
-  #intro{
-    border: 5px solid;
-    color: #F2F2F2;
-    font-family: 'Permanent Marker', cursive;
-    font-size: 30px;
-    padding: 10px;
-    text-align: center;
-  }
+    .introduction {
+      padding-top: 110px;
+    }
 }
-
-/* Nexus 5X */
-@media screen
-  and (device-width: 412px)
-  and (device-height: 732px)
+/* iPhone 6 */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
   and (orientation: portrait) {
-  .introduction {
-    padding-top: 295px;
-    margin-left: 25px;
-    margin-right: 25px;
-    position: absolute;
-    left: 50%;
-    margin-left: -130px;
-  }
-  #intro{
-    border: 5px solid;
-    color: #F2F2F2;
-    font-family: 'Permanent Marker', cursive;
-    font-size: 32px;
-    padding: 10px;
-    text-align: center;
-  }
+    .introduction {
+      padding-top: 150px;
+    }
 }
-
-/* iPhone 5S */
-@media screen
-  and (device-width: 320px)
-  and (device-height: 568px)
+/* iPhone 6 Plus */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
   and (orientation: portrait) {
-  .introduction {
-    padding-top: 245px;
-    margin-left: 25px;
-    margin-right: 25px;
-    position: absolute;
-    left: 50%;
-    margin-left: -125px;
-  }
-  #intro{
-    border: 5px solid;
-    color: #F2F2F2;
-    font-family: 'Permanent Marker', cursive;
-    font-size: 30px;
-    padding: 10px;
-    text-align: center;
-  }
+    .introduction {
+      padding-top: 170px;
+    }
 }
-
-/* iPhone 6S Plus */
-@media screen
-  and (device-width: 414px)
-  and (device-height: 736px)
-  and (orientation: portrait) {
-  .introduction {
-    padding-top: 315px;
-    margin-left: 25px;
-    margin-right: 25px;
-    position: absolute;
-    left: 50%;
-    margin-left: -147px;
-  }
-  #intro{
-    border: 5px solid;
-    color: #F2F2F2;
-    font-family: 'Permanent Marker', cursive;
-    font-size: 38px;
-    padding: 10px;
-    text-align: center;
-  }
-}
-
-@media (min-width: 576px) {
-  .introduction {
-    padding-top: 285px;
-    margin-left: 25px;
-    margin-right: 25px;
-    position: absolute;
-    left: 50%;
-    margin-left: -145px;
-    z-index: 500;
-  }
-  #intro{
-    border: 5px solid;
-    color: #F2F2F2;
-    font-family: 'Permanent Marker', cursive;
-    padding: 10px;
-    text-align: center;
-  }
-}
-/*
-@media (min-width: 767px) {
-  .introduction {
-    margin-left: 25px;
-    margin-right: 25px;
-    padding-top: 225px;
-    position: absolute;
-    left: 50%;
-    margin-left: -165px;
-    z-index: 2;
-  }
-  .fa-angle-down {
-    color: #575757;
-    font-size: 48px !important;
-  }
-  .arrow {
-    position: absolute;
-    bottom: -50px;
-    left: 50%;
-    margin-left: -24px;
-    z-index: 5;
-  }
-  #intro {
-    border: 5px solid;
-    color: #575757;
-    font-family: 'Permanent Marker', cursive;
-    font-size: 40px;
-    padding: 10px;
-    text-align: center;
-  }
-}
-
-@media (min-width: 991px) {
-  .introduction {
-    margin-left: 25px;
-    margin-right: 25px;
-    padding-top: 200px;
-    position: absolute;
-    left: 50%;
-    margin-left: -170px;
-    z-index: 2;
-  }
-  .fa-angle-down {
-    color: #575757;
-    font-size: 60px !important;
-  }
-  .arrow {
-    position: absolute;
-    bottom: -50px;
-    left: 50%;
-    margin-left: -24px;
-    z-index: 5;
-  }
-  #intro {
-    border: 5px solid;
-    color: #575757;
-    font-family: 'Permanent Marker', cursive;
-    font-size: 42px;
-    padding: 10px;
-    text-align: center;
-  }
-}
-
-@media (min-width: 1199px) {
-  .introduction {
-    margin-left: 25px;
-    margin-right: 25px;
-    padding-top: 235px;
-    position: absolute;
-    left: 50%;
-    margin-left: -215px;
-    z-index: 2;
-  }
-  .fa-angle-down {
-    color: #575757;
-    font-size: 60px !important;
-  }
-  .arrow {
-    position: absolute;
-    bottom: -50px;
-    left: 50%;
-    margin-left: -24px;
-    z-index: 5;
-  }
-  #intro {
-    border: 5px solid;
-    color: #575757;
-    font-family: 'Permanent Marker', cursive;
-    font-size: 55px;
-    padding: 10px;
-    text-align: center;
-  }
-}
- */

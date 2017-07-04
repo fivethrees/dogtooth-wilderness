@@ -1,7 +1,7 @@
-window.onload = function() {
+window.onLoad() {
   fade();
-  arrow();
 }
-  function fade() {
-      $("#intro").hide().fadeIn(2000);
-  }
+
+function fade() {
+  
+}
