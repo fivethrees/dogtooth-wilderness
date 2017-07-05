@@ -13,10 +13,31 @@
 	font-size: inherit;
 }
 #index-banner{
-  background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/img/forest.jpg");
+  background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/img/forest.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 92vh;
   padding-top: 0px;
+}
+.material-icons {
+  font-size: 32px !important;
+}
+.button-collapse {
+  margin: 0px !important;
+}
+li a {
+  font-size: 23px !important;
+  padding: 10px 10px 0px 20px !important;
+  color: #FFF !important;
+  font-family: 'Lato', sans-serif !important;
+  font-weight: 300 !important;
+}
+li>a>i.material-icons {
+  float: right !important;
+  color: #FFF !important;
+  margin-right: 10px !important;
+}
+ul#nav-mobile.side-nav {
+  background-color: #212121 !important;
 }

@@ -1,54 +1,43 @@
 @media only screen and (min-width: 320px) {
   #wander-safely {
-    border: 5px solid;
-    margin: 15px;
-    padding: 5px 0px 5px 5px;
-    text-align: left;
+    font-size: 36px;
+    font-family: 'Lato', sans-serif !important;
+    font-weight: 100;
+    display: inline;
+  }
+  #sentence {
+    font-size: 20px;
+    font-family: 'Lato', sans-serif !important;
+    font-weight: 300;
+    text-align: center;
   }
   .introduction {
-    padding-top: 125px;
+    padding-top: 155px;
+    text-align: center;
   }
 }
+/* Galaxy Note 3, Galaxy S5 */
 @media only screen and (min-width : 340px){
   #wander-safely {
-    margin: 15px 30px 15px 30px;
+    font-size: 40px;
   }
 }
+/* iPhone 6 */
+@media only screen and (min-width : 375px){
+  #wander-safely {
+    font-size: 42px;
+  }
+  #sentence {
+    font-size: 23px;
+  }
+}
+/* Nexus 5X, Nexus 6P */
 @media only screen and (min-width : 400px){
   #wander-safely {
-    margin: 15px 50px 15px 50px;
+    font-size: 46px;
   }
-}
-@media only screen and (min-width : 450px) {
-  #wander-safely {
-    margin: 15px 70px 15px 70px;
-  }
-}
-@media only screen and (min-width : 480px) {
-  #wander-safely {
-    margin: 15px 90px 15px 90px;
-  }
-}
-@media only screen and (min-width : 525px) {
-  #wander-safely {
-    margin: 15px 110px 15px 110px;
-  }
-}
-@media only screen and (min-width : 565px) {
-  #wander-safely {
-    margin: 15px 130px 15px 130px;
-  }
-}
-@media only screen and (min-width : 630px) {
-  #wander-safely {
-    margin: 15px 130px 15px 130px;
-    padding: 15px 0px 15px 15px;
-  }
-}
-@media only screen and (min-width : 660px) {
-  #wander-safely {
-    margin: 15px 150px 15px 150px;
-    padding: 15px 0px 15px 15px;
+  #sentence {
+    font-size: 26px;
   }
 }
 /* iPhone 5 */
@@ -57,16 +46,25 @@
   and (max-device-width: 568px)
   and (orientation: portrait) {
     .introduction {
-      padding-top: 110px;
+      padding-top: 135px;
     }
 }
-/* iPhone 6 */
+/* Galaxy Note 3, Galaxy S5 */
+@media only screen
+  and (min-device-width: 330px)
+  and (max-device-width: 568px)
+  and (orientation: portrait) {
+    .introduction {
+      padding-top: 175px;
+    }
+}
+/* Nexus 5X, Nexus 6P, iPhone 6 */
 @media only screen
   and (min-device-width: 375px)
   and (max-device-width: 667px)
   and (orientation: portrait) {
     .introduction {
-      padding-top: 150px;
+      padding-top: 195px;
     }
 }
 /* iPhone 6 Plus */
@@ -75,6 +73,6 @@
   and (max-device-width: 736px)
   and (orientation: portrait) {
     .introduction {
-      padding-top: 170px;
+      padding-top: 220px;
     }
 }
